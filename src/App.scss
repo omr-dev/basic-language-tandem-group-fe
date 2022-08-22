@@ -1,6 +1,21 @@
-body{
-    background-color: #333;
-    color: #ccc;
-    padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body {
+  background-color: #333;
+  color: #ccc;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  .App {
+    nav {
+      background-color: #ccc;
+      a {
+        color: #333;
+        text-decoration: none;
+        margin: 10px;
+        
+        &:hover {
+          color: yellow;
+          background-color: #333;
+        }
+      }
+    }
+  }
 }
