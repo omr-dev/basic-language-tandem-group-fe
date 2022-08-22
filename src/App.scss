@@ -10,7 +10,11 @@ body {
         color: #333;
         text-decoration: none;
         margin: 10px;
-        
+        &.active {
+          color: yellow;
+          background-color: black;
+        }
+
         &:hover {
           color: yellow;
           background-color: #333;
